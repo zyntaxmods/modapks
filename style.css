@@ -166,3 +166,6 @@ body {
 .user-count:before {
   content:"Visits: ";
 }
+#out{
+  color:white;
+}
