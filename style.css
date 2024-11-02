@@ -167,4 +167,21 @@ body {
 .user-count:before {
   content:"Visits: ";
 }
-/*kenshie*/
+@media (min-width: 980px){
+  #searchInput{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    left:40%;
+    top:8%;
+  }
+  #scrollToTopBtn {
+    padding: 40px 40px;
+  }
+  .kenshie{
+    font-size:50px;
+  }
+  #userCount{
+    font-size:50px;
+  }
+}

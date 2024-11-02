@@ -23,6 +23,7 @@ window.addEventListener('scroll', function() {
   var scrollToTopBtn = document.getElementById('scrollToTopBtn');
   if (window.scrollY > 300) {
     scrollToTopBtn.style.display = 'block';
+    scrollToTopBtn.classList.add("kenshie");
   } else {
     scrollToTopBtn.style.display = 'none';
   }
